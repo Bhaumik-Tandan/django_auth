@@ -1,0 +1,17 @@
+POST  http://localhost:8000/user/api/signup content-Type: application/json
+
+{
+    "username": "john_doe",
+    "password": "password123",
+    "email": "john+1@example.com",
+    "phone_number": "1234567890",
+    "referral_code": "ABC123",
+    "payment": 5000
+}
+
+### 
+GET  http://127.0.0.1:8000/user 
+
+### 
+GET  http://127.0.0.1:8000/user/api/incentive/1
+
